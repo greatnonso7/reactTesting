@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register snapshot  1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginHorizontal": 20,
+        "marginTop": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text>
+        &lt;
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Register Screen
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "height": 50,
+            "marginBottom": 10,
+            "width": 350,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="First Name"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 50,
+              "padding": 15,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "height": 50,
+            "marginBottom": 10,
+            "width": 350,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Last Name"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 50,
+              "padding": 15,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "height": 50,
+            "marginBottom": 10,
+            "width": 350,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Email Name"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 50,
+              "padding": 15,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "height": 50,
+            "marginBottom": 10,
+            "width": 350,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Username"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 50,
+              "padding": 15,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "height": 50,
+            "marginBottom": 10,
+            "width": 350,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 50,
+              "padding": 15,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "red",
+          "borderRadius": 10,
+          "height": 50,
+          "justifyContent": "center",
+          "marginTop": 50,
+          "opacity": 1,
+          "width": 350,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+      >
+        Register
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

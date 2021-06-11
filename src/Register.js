@@ -48,6 +48,7 @@ class Register extends React.PureComponent {
           <View style={styles.formContainer}>
             <View style={styles.formControl}>
               <TextInput
+                textId="firstNameTextInput"
                 style={styles.textInput}
                 onChangeText={e => this.handleFirstNameTextInput(e)}
                 placeholder="First Name"
@@ -55,6 +56,7 @@ class Register extends React.PureComponent {
             </View>
             <View style={styles.formControl}>
               <TextInput
+                textId="lastNameTextInput"
                 style={styles.textInput}
                 onChangeText={e => this.handleLastNameTextInput(e)}
                 placeholder="Last Name"
@@ -62,6 +64,7 @@ class Register extends React.PureComponent {
             </View>
             <View style={styles.formControl}>
               <TextInput
+                textId="emailTextInput"
                 style={styles.textInput}
                 onChangeText={e => this.handleEmailTextInput(e)}
                 placeholder="Email Name"
@@ -69,6 +72,7 @@ class Register extends React.PureComponent {
             </View>
             <View style={styles.formControl}>
               <TextInput
+                textId="userNameTextInput"
                 style={styles.textInput}
                 onChangeText={e => this.handleUsernameTextInput(e)}
                 placeholder="Username"
@@ -76,13 +80,17 @@ class Register extends React.PureComponent {
             </View>
             <View style={styles.formControl}>
               <TextInput
+                textId="passwordTextInput"
                 style={styles.textInput}
                 onChangeText={e => this.handlePasswordTextInput(e)}
                 placeholder="Password"
               />
             </View>
           </View>
-          <TouchableOpacity activeOpacity={0.6} style={styles.buttonContainer}>
+          <TouchableOpacity
+            textId="loginButton"
+            activeOpacity={0.6}
+            style={styles.buttonContainer}>
             <Text style={styles.buttonText}>Register</Text>
           </TouchableOpacity>
         </View>
